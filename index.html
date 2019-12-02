@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Higher or Lower Game</title>
+
+	<link rel="stylesheet" href="main.min.css" />
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Higher or Lower Game</h1>
+		
+		<div class="game-view">
+			<div class="number" id="current">0</div>
+			<div class="button-group">
+				<div>
+					<button class="btn" id="higher" data-value="higher">&#8613;</button>
+					<p>Higher</p>
+				</div>
+				<div>
+					<button class="btn" id="lower" data-value="lower">&#8615;</button>
+					<p>Lower</p>
+				</div>
+			</div>
+        </div>
+        <div class = "myPrice">
+        <h4 class = "Price">Price:</h4>
+        <div class="PriceAm" id="price">0</div>
+        <p class = "leva">Leva</p>
+    </div>
+        <h4>SCORE</h4>
+		<div class="score" id="score">0</div>
+		
+		<h3 class="result hide" id="result">Correct!</h3>
+    </div>
+    
+
+	<script src="main.js"></script>
+</body>
+</html>
